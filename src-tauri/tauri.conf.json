@@ -1,0 +1,102 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
+  "build": {
+    "beforeDevCommand": "cross-env NEXT_PUBLIC_BUILD_MODE=export pnpm dev",
+    "beforeBuildCommand": "cross-env NEXT_PUBLIC_BUILD_MODE=export pnpm build",
+    "devUrl": "http://localhost:3000",
+    "frontendDist": "../out"
+  },
+  "identifier": "com.vortex-ai-chat",
+  "productName": "vortertex AI Chat",
+  "version": "1.10.3",
+  "app": {
+    "windows": [
+      {
+        "title": "vortertex AI Chat",
+        "width": 1200,
+        "height": 800,
+        "minWidth": 800,
+        "minHeight": 600,
+        "center": true,
+        "decorations": true,
+        "transparent": false,
+        "alwaysOnTop": false,
+        "visible": true,
+        "label": "main"
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "deb",
+      "appimage",
+      "dmg",
+      "msi"
+    ],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "externalBin": [],
+    "copyright": "2024 Ahmads AI APP All Rights Reserved.",
+    "category": "DeveloperTool",
+    "shortDescription": "vortertex AI Chat - Your AI Assistant",
+    "longDescription": "vortertex AI Chat is a powerful AI assistant that helps you with various tasks.",
+    "macOS": {
+      "frameworks": [],
+      "minimumSystemVersion": "10.15",
+      "exceptionDomain": "",
+      "signingIdentity": null,
+      "providerShortName": null,
+      "entitlements": null
+    },
+    "windows": {
+      "certificateThumbprint": null,
+      "digestAlgorithm": "sha256",
+      "timestampUrl": ""
+    },
+    "linux": {
+      "deb": {
+        "depends": [
+          "libwebkit2gtk-4.0-dev",
+          "libgtk-3-dev",
+          "libayatana-appindicator3-dev"
+        ]
+      },
+      "appimage": {
+        "bundleMediaFramework": true
+      }
+    }
+  },
+  "plugins": {
+    "shell": {
+      "open": true
+    },
+    "fs": {
+      "requireLiteralLeadingDot": true
+    },
+    "window": {
+      "all": true
+    },
+    "notification": {
+      "all": true
+    },
+    "app": {
+      "all": true
+    },
+    "protocol": {
+      "all": true,
+      "asset": false,
+      "assetScope": [
+        "**"
+      ]
+    }
+  }
+}

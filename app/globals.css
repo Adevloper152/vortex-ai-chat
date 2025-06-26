@@ -88,6 +88,7 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -97,24 +98,30 @@ html,
 body {
   height: 100%;
 }
+
 .inline-image {
   max-height: 200px;
   border-radius: 4px;
   margin-bottom: 8px;
 }
+
 .yarl__root .yarl__container {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
 .audio-slider span[role='slider'] {
   cursor: pointer;
   width: 16px;
   height: 16px;
   transition: all 150ms linear;
 }
+
 .audio-slider span[role='slider']:hover {
   width: 20px;
   height: 20px;
+  background-color: var(--primary);
 }
+
 .text-line-clamp {
   display: -webkit-box;
   -webkit-line-clamp: 1;
@@ -124,6 +131,7 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 .text-line-clamp-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -133,6 +141,7 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 .text-line-clamp-3 {
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -142,6 +151,7 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 .chat-content img {
   width: 100%;
   max-width: 500px;

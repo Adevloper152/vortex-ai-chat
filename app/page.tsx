@@ -4,6 +4,7 @@ import dynamic from 'next/dynamic'
 import { useRef, useState, useMemo, KeyboardEvent, useEffect, useCallback, useLayoutEffect } from 'react'
 import type { FunctionCall, InlineDataPart } from '@xiangfa/generative-ai'
 import { AudioRecorder, EdgeSpeech, getRecordMineType } from '@xiangfa/polly'
+import VortexAIChatFooter from './footer'
 import {
   MessageCircleHeart,
   AudioLines,
@@ -993,7 +994,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex w-32 items-center gap-1 max-sm:gap-0">
-          <a href="https://github.com/Adevloper152/vortex-ai-chat" target="_blank">
+          <a href="https://github.com/Adevloper152/Vortex-ai-chat" target="_blank">
             <Button className="h-8 w-8" title={t('github')} variant="ghost" size="icon">
               <Github className="h-5 w-5" />
             </Button>
@@ -1017,20 +1018,7 @@ export default function Home() {
           >
             <Settings className="h-5 w-5" />
           </Button>
-          <Button
-            className={`h-8 w-8 ${temporaryChatMode ? 'bg-yellow-200 dark:bg-yellow-700' : ''}`}
-            title={temporaryChatMode ? 'Temporary Chat Mode ON' : 'Enable Temporary Chat Mode'}
-            variant="ghost"
-            size="icon"
-            onClick={() => {
-              setTemporaryChatMode((prev) => {
-                if (prev) setTemporaryMessages([])
-                return !prev
-              })
-            }}
-          >
-            <span role="img" aria-label="Temp">🕑</span>
-          </Button>
+
         </div>
       </div>
       {messages.length === 0 && content === '' && systemInstruction === '' && !systemInstructionEditMode ? (
@@ -1273,8 +1261,8 @@ export default function Home() {
           />
         )
       ) : null}
-      <Setting open={settingOpen} hiddenTalkPanel={!supportSpeechRecognition} onClose={() => setSetingOpen(false)} />
-      <div className='text-token-text-secondary relative mt-auto flex min-h-8 w-full items-center justify-center p-2 text-center text-xs md:px-[60px]'>sometimes vortex make mistakes. please check important info.</div>
+      <Setting open={settingOpen} hiddenTalkPanel={!supportSpeechRecognition} onClose={() => setSetingOpen(true)} />
+      <VortexAIChatFooter />
     </main>
   )
 }
@@ -1282,4 +1270,3 @@ function clearAttachment() {
   const { clear } = useAttachmentStore.getState()
   clear()
 }
-

@@ -12,11 +12,11 @@ import './globals.css'
 
 const HEAD_SCRIPTS = process.env.HEAD_SCRIPTS as string
 
-const APP_NAME = 'vortex AI Chat'
-const APP_DEFAULT_TITLE = 'vortex AI Chat'
+const APP_NAME = 'Vortex AI Chat'
+const APP_DEFAULT_TITLE = 'Vortex AI Chat'
 const APP_TITLE_TEMPLATE = '%s - PWA App'
 const APP_DESCRIPTION =
-  'vortex Ai chat is one of the most powerful ai apps ever.'
+  'Vortex Ai chat is one of the most powerful ai apps ever.'
 
 export const metadata: Metadata = {
   applicationName: APP_NAME,
@@ -73,6 +73,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" dir="auto" suppressHydrationWarning>
+
       <head>{HEAD_SCRIPTS ? <Script id="headscript">{HEAD_SCRIPTS}</Script> : null}</head>
       <body>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>

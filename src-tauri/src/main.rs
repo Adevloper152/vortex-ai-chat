@@ -15,9 +15,9 @@ fn main() {
         .setup(|app| {
             #[cfg(target_os = "macos")]
             {
-                let app_menu = SubmenuBuilder::new(app, "vortex AI Chat")
+                let app_menu = SubmenuBuilder::new(app, "Vortex AI Chat")
                     .items(&[
-                        &MenuItemBuilder::with_id("about", "About vortex AI Chat").build(app)?,
+                        &MenuItemBuilder::with_id("about", "About Vortex AI Chat").build(app)?,
                         &MenuItemBuilder::with_id("preferences", "Preferences...").accelerator("Cmd+,").build(app)?,
                         &MenuItemBuilder::with_id("quit", "Quit").accelerator("Cmd+Q").build(app)?,
                     ])
@@ -51,7 +51,7 @@ fn main() {
 
                 let help_menu = SubmenuBuilder::new(app, "Help")
                     .items(&[
-                        &MenuItemBuilder::with_id("help", "vortex AI Chat Help").accelerator("Cmd+?").build(app)?,
+                        &MenuItemBuilder::with_id("help", "Vortex AI Chat Help").accelerator("Cmd+?").build(app)?,
                     ])
                     .build()?;
 

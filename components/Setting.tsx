@@ -341,9 +341,8 @@ function Setting({ open, hiddenTalkPanel, onClose }: SettingProps) {
                       <a
                         className="underline underline-offset-2"
 
-                        href="https://github.com/Adevloper152//vortex-ai-chat/releases"
+                        href="https://github.com/Adevloper152//Vortex-ai-chat/releases"
 
-                        href="https://github.com/Adevloper152//-ai-chat/releases"
 
                         target="_blank"
                       >

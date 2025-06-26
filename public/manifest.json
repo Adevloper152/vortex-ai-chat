@@ -1,8 +1,8 @@
 {
-  "name": "vortex AI Chat",
-  "short_name": "vortex AI Chat",
-  "description": "vortex Ai chat is one of the most powerful ai apps ever.",
-  "id": "vortex-ai-chat",
+  "name": "Vortex AI Chat",
+  "short_name": "Vortex AI Chat",
+  "description": "Vortex Ai chat is one of the most powerful ai apps ever.",
+  "id": "Vortex-ai-chat",
   "scope": ".",
   "icons": [
     {

@@ -2,7 +2,7 @@
 
 1. 登录 Cloudflare 仪表板并选择您的帐户。
 2. 选择 Compute(Workers) > 创建 > Pages。
-3. 点击 连接到 Git > vortex-ai-chat > 开始设置
+3. 点击 连接到 Git > Vortex-ai-chat > 开始设置
 4. 框架预设 > Next.js > 设置环境变量 > 保持并部署
 5. 设置 > 运行时 > 兼容性标志 > 填入 `nodejs_compat` > 保存
 6. 部署 > 重新部署

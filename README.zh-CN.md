@@ -1,17 +1,17 @@
 <div align="center">
-<h1>vortex AI Chat</h1>
+<h1>Vortex AI Chat</h1>
 
-![GitHub deployments](https://img.shields.io/github/deployments/u14app/vortex-ai-chat/Production)
-![GitHub Release](https://img.shields.io/github/v/release/u14app/vortex-ai-chat)
+![GitHub deployments](https://img.shields.io/github/deployments/u14app/Vortex-ai-chat/Production)
+![GitHub Release](https://img.shields.io/github/v/release/u14app/Vortex-ai-chat)
 ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/xiangfa/talk-with-gemini/latest)
 ![Docker Pulls](https://img.shields.io/docker/pulls/xiangfa/talk-with-gemini)
-![GitHub License](https://img.shields.io/github/license/u14app/vortex-ai-chat)
+![GitHub License](https://img.shields.io/github/license/u14app/Vortex-ai-chat)
 
 一键免费部署您的私人 Gemini 应用, 支持 Gemini 1.5 Pro、Gemini 1.5 Flash、Gemini Pro 和 Gemini Pro Vision 模型。
 
 [English](./README.md) · **简体中文**
 
-[![Vercel](https://img.shields.io/badge/Vercel-111111?style=flat&logo=vercel&logoColor=white)](https:/vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fu14app%2Fvortex-ai-chat&project-name=vortex-ai-chat&env=GEMINI_API_KEY&env=ACCESS_PASSWORD&repository-name=vortex-ai-chat)
+[![Vercel](https://img.shields.io/badge/Vercel-111111?style=flat&logo=vercel&logoColor=white)](https:/vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fu14app%2FVortex-ai-chat&project-name=Vortex-ai-chat&env=GEMINI_API_KEY&env=ACCESS_PASSWORD&repository-name=Vortex-ai-chat)
 [![Cloudflare](https://img.shields.io/badge/Cloudflare-F69652?style=flat&logo=cloudflare&logoColor=white)](#部署到-cloudflare)
 
 [![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)](https://ai.google.dev/)
@@ -24,10 +24,10 @@
 [![Windows][Windows-image]][download-url]
 [![Linux][Linux-image]][download-url]
 
-[网页版][web-url] / [客户端][download-url] / [反馈](https://github.com/Adevloper152/vortex-ai-chat/issues)
+[网页版][web-url] / [客户端][download-url] / [反馈](https://github.com/Adevloper152/Vortex-ai-chat/issues)
 
 [web-url]: https://gemini.u14.app/
-[download-url]: https://github.com/Adevloper152/vortex-ai-chat/releases
+[download-url]: https://github.com/Adevloper152/Vortex-ai-chat/releases
 [Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge
 [Windows-image]: https://img.shields.io/badge/-Windows-blue?logo=windows
 [MacOS-image]: https://img.shields.io/badge/-MacOS-black?logo=apple
@@ -42,17 +42,17 @@
 [![][share-weibo-shield]][share-weibo-link]
 [![][share-mastodon-shield]][share-mastodon-link]
 
-[share-mastodon-link]: https://mastodon.social/share?text=Check%20this%20GitHub%20repository%20out%20GeminiNextChat%20-%20An%20open-source%2C%20extensible%20(Function%20Calling)%2C%20high-performance%20gemini%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20Gemini%20web%20application.%20https%3A%2F%2Fgithub.com%2Fu14app%2Fvortex-ai-chat%20%23chatbot%20%23gemini
+[share-mastodon-link]: https://mastodon.social/share?text=Check%20this%20GitHub%20repository%20out%20GeminiNextChat%20-%20An%20open-source%2C%20extensible%20(Function%20Calling)%2C%20high-performance%20gemini%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20Gemini%20web%20application.%20https%3A%2F%2Fgithub.com%2Fu14app%2FVortex-ai-chat%20%23chatbot%20%23gemini
 [share-mastodon-shield]: https://img.shields.io/badge/-share%20on%20mastodon-black?labelColor=black&logo=mastodon&logoColor=white&style=flat-square
-[share-reddit-link]: https://www.reddit.com/submit?title=Check%20this%20GitHub%20repository%20out%20GeminiNextChat%20-%20An%20open-source%2C%20extensible%20(Function%20Calling)%2C%20high-performance%20gemini%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20Gemini%20web%20application.%20https%3A%2F%2Fgithub.com%2Fu14app%2Fvortex-ai-chat
+[share-reddit-link]: https://www.reddit.com/submit?title=Check%20this%20GitHub%20repository%20out%20GeminiNextChat%20-%20An%20open-source%2C%20extensible%20(Function%20Calling)%2C%20high-performance%20gemini%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20Gemini%20web%20application.%20https%3A%2F%2Fgithub.com%2Fu14app%2FVortex-ai-chat
 [share-reddit-shield]: https://img.shields.io/badge/-share%20on%20reddit-black?labelColor=black&logo=reddit&logoColor=white&style=flat-square
-[share-telegram-link]: https://t.me/share/url"?text=Check%20this%20GitHub%20repository%20out%20GeminiNextChat%20-%20An%20open-source%2C%20extensible%20(Function%20Calling)%2C%20high-performance%20gemini%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20Gemini%20web%20application.%20https%3A%2F%2Fgithub.com%2Fu14app%2Fvortex-ai-chat
+[share-telegram-link]: https://t.me/share/url"?text=Check%20this%20GitHub%20repository%20out%20GeminiNextChat%20-%20An%20open-source%2C%20extensible%20(Function%20Calling)%2C%20high-performance%20gemini%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20Gemini%20web%20application.%20https%3A%2F%2Fgithub.com%2Fu14app%2FVortex-ai-chat
 [share-telegram-shield]: https://img.shields.io/badge/-share%20on%20telegram-black?labelColor=black&logo=telegram&logoColor=white&style=flat-square
-[share-weibo-link]: http://service.weibo.com/share/share.php?sharesource=weibo&title=Check%20this%20GitHub%20repository%20out%20GeminiNextChat%20-%20An%20open-source%2C%20extensible%20(Function%20Calling)%2C%20high-performance%20gemini%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20Gemini%20web%20application.%20https%3A%2F%2Fgithub.com%2Fu14app%2Fvortex-ai-chat
+[share-weibo-link]: http://service.weibo.com/share/share.php?sharesource=weibo&title=Check%20this%20GitHub%20repository%20out%20GeminiNextChat%20-%20An%20open-source%2C%20extensible%20(Function%20Calling)%2C%20high-performance%20gemini%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20Gemini%20web%20application.%20https%3A%2F%2Fgithub.com%2Fu14app%2FVortex-ai-chat
 [share-weibo-shield]: https://img.shields.io/badge/-share%20on%20weibo-black?labelColor=black&logo=sinaweibo&logoColor=white&style=flat-square
-[share-whatsapp-link]: https://api.whatsapp.com/send?text=Check%20this%20GitHub%20repository%20out%20GeminiNextChat%20-%20An%20open-source%2C%20extensible%20(Function%20Calling)%2C%20high-performance%20gemini%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20Gemini%20web%20application.%20https%3A%2F%2Fgithub.com%2Fu14app%2Fvortex-ai-chat%20%23chatbot%20%23gemini
+[share-whatsapp-link]: https://api.whatsapp.com/send?text=Check%20this%20GitHub%20repository%20out%20GeminiNextChat%20-%20An%20open-source%2C%20extensible%20(Function%20Calling)%2C%20high-performance%20gemini%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20Gemini%20web%20application.%20https%3A%2F%2Fgithub.com%2Fu14app%2FVortex-ai-chat%20%23chatbot%20%23gemini
 [share-whatsapp-shield]: https://img.shields.io/badge/-share%20on%20whatsapp-black?labelColor=black&logo=whatsapp&logoColor=white&style=flat-square
-[share-x-link]: https://x.com/intent/tweet?hashtags=chatbot%2CchatGPT%2CopenAI&text=Check%20this%20GitHub%20repository%20out%20GeminiNextChat%20-%20An%20open-source%2C%20extensible%20(Function%20Calling)%2C%20high-performance%20gemini%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20Gemini%20web%20application.%20https%3A%2F%2Fgithub.com%2Fu14app%2Fvortex-ai-chat
+[share-x-link]: https://x.com/intent/tweet?hashtags=chatbot%2CchatGPT%2CopenAI&text=Check%20this%20GitHub%20repository%20out%20GeminiNextChat%20-%20An%20open-source%2C%20extensible%20(Function%20Calling)%2C%20high-performance%20gemini%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20Gemini%20web%20application.%20https%3A%2F%2Fgithub.com%2Fu14app%2FVortex-ai-chat
 [share-x-shield]: https://img.shields.io/badge/-share%20on%20x-black?labelColor=black&logo=x&logoColor=white&style=flat-square
 
 ![cover](./public/screenshots/screenshots.png)
@@ -133,7 +133,7 @@
 1. 获取 [Gemini API Key](https://aistudio.google.com/app/apikey)
 2. 一键部署项目，可以选择部署到 Vercel
 
-   [![Deploy with Vercel](https:/vercel.com/button)](https:/vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fu14app%2Fvortex-ai-chat&project-name=vortex-ai-chat&env=GEMINI_API_KEY&env=ACCESS_PASSWORD&repository-name=vortex-ai-chat)
+   [![Deploy with Vercel](https:/vercel.com/button)](https:/vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fu14app%2FVortex-ai-chat&project-name=Vortex-ai-chat&env=GEMINI_API_KEY&env=ACCESS_PASSWORD&repository-name=Vortex-ai-chat)
 
 3. 开始使用
 
@@ -323,4 +323,4 @@ _目前 Multimodal Live API 尚不支持中文语音输出。_
 
 ## 收藏历史
 
-[![Star History Chart](https://api.star-history.com/svg?repos=u14app/vortex-ai-chat&type=Date)](https://star-history.com/#u14app/vortex-ai-chat&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=u14app/Vortex-ai-chat&type=Date)](https://star-history.com/#u14app/Vortex-ai-chat&Date)

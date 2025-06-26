@@ -1,5 +1,5 @@
 <div align="center">
-<h1>vortertex AI Chat</h1>
+<h1>vortex AI Chat</h1>
 
 ![GitHub deployments](https://img.shields.io/github/deployments/u14app/vortex-ai-chat/Production)
 ![GitHub Release](https://img.shields.io/github/v/release/u14app/vortex-ai-chat)

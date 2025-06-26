@@ -1274,7 +1274,7 @@ export default function Home() {
         )
       ) : null}
       <Setting open={settingOpen} hiddenTalkPanel={!supportSpeechRecognition} onClose={() => setSetingOpen(false)} />
-      <div className='text-token-text-secondary relative mt-auto flex min-h-8 w-full items-center justify-center p-2 text-center text-xs md:px-[60px]'>sometimes vortertex make mistakes. please check important info.</div>
+      <div className='text-token-text-secondary relative mt-auto flex min-h-8 w-full items-center justify-center p-2 text-center text-xs md:px-[60px]'>sometimes vortex make mistakes. please check important info.</div>
     </main>
   )
 }

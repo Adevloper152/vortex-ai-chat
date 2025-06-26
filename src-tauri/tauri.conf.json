@@ -7,12 +7,12 @@
     "frontendDist": "../out"
   },
   "identifier": "com.vortex-ai-chat",
-  "productName": "vortertex AI Chat",
+  "productName": "vortex AI Chat",
   "version": "1.10.3",
   "app": {
     "windows": [
       {
-        "title": "vortertex AI Chat",
+        "title": "vortex AI Chat",
         "width": 1200,
         "height": 800,
         "minWidth": 800,
@@ -47,8 +47,8 @@
     "externalBin": [],
     "copyright": "2024 Ahmads AI APP All Rights Reserved.",
     "category": "DeveloperTool",
-    "shortDescription": "vortertex AI Chat - Your AI Assistant",
-    "longDescription": "vortertex AI Chat is a powerful AI assistant that helps you with various tasks.",
+    "shortDescription": "vortex AI Chat - Your AI Assistant",
+    "longDescription": "vortex AI Chat is a powerful AI assistant that helps you with various tasks.",
     "macOS": {
       "frameworks": [],
       "minimumSystemVersion": "10.15",

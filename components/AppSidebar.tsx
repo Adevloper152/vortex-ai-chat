@@ -370,7 +370,7 @@ function AppSidebar() {
     <Sidebar>
       <SidebarHeader>
         <div className="flex justify-between p-2 pb-0">
-          <span className="text-lg font-semibold text-blue-400">vortertex AI Chat</span>
+          <span className="text-lg font-semibold text-blue-400">vortex AI Chat</span>
           <Button
             className="h-8 w-8 [&_svg]:size-5"
             variant="ghost"

@@ -12,11 +12,11 @@ import './globals.css'
 
 const HEAD_SCRIPTS = process.env.HEAD_SCRIPTS as string
 
-const APP_NAME = 'vortertex AI Chat'
-const APP_DEFAULT_TITLE = 'vortertex AI Chat'
+const APP_NAME = 'vortex AI Chat'
+const APP_DEFAULT_TITLE = 'vortex AI Chat'
 const APP_TITLE_TEMPLATE = '%s - PWA App'
 const APP_DESCRIPTION =
-  'vortertex Ai chat is one of the most powerful ai apps ever.'
+  'vortex Ai chat is one of the most powerful ai apps ever.'
 
 export const metadata: Metadata = {
   applicationName: APP_NAME,
